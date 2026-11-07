@@ -1,0 +1,47 @@
+1. How Git and GitHub enable collaboration among cybersecurity team members (4 Marks)
+Git and GitHub enable collaboration because cybersecurity team members can work on the same projects/resources (same repository) and contribute information, edit files and share security solutions together.
+GitHub has branches and pull requests so different members of the team can work on separate tasks without affecting the main project. Changes can be reviewed before being merged into the main repository.
+For example, one cybersecurity analyst can work on phishing awareness while another develops malware prevention guidelines. Both can be in the same repository and improve teamwork and productivity.
+
+
+2. How Version Control and Commit History Support Accountability and Tracking of Changes (4 Marks)
+Version control is a system that keeps track of changes made to files over time. Git lets users track modifications, who made them and when they were made.
+Commit history is a record of what has been done in the repository. Each commit has information about changes made and a message explaining why they were made (or not).
+This supports accountability because team members know who is responsible for specific updates. It also allows previous versions of files to be restored when mistakes are made.
+For instance, if an analyst accidentally deletes important security documentation Git can help recover an earlier version of it.
+
+3. How Git and GitHub Help Cybersecurity Teams Document and Manage Projects (4 Marks)
+Git and GitHub enable cybersecurity teams to organise, document and maintain security projects. GitHub repositories are a central place where team members can store cybersecurity guidelines (e.g., policies), incident reports, security policies, scripts and research documents.
+README.md files explain what a project is for and how to use its resources. Folders and meaningful filenames make information easier to find.
+Git also tracks changes made to project files so documentation stays organised and up-to-date.
+For example, a cybersecurity team could have a repository of phishing awareness policies, incident reporting procedures and network security documentation.
+
+4. Identify Two Good Security Practices That Should Be Followed When Using GitHub (8 Marks)
+Practice 1: Protecting Credentials and Sensitive Information
+Cybersecurity professionals should never upload passwords, API keys, authentication tokens or other confidential organisational information into public GitHub repositories.
+Sensitive information can be used by attackers to gain unauthorised access to systems and accounts.
+
+Users should:
+* Never store passwords in source code.
+* Use environment variables to protect sensitive credentials.
+* Enable secret scanning where available.
+* Cancel and replace exposed credentials immediately.
+* Check files before uploading them to GitHub.
+For example developers should not store database passwords directly in publicly accessible code.
+
+Practice 2: Controlling Access and Permissions
+Cybersecurity teams need to enforce proper access control so that only authorised users can access or modify repositories.
+GitHub has permission settings so repository owners can control what collaborators can do.
+
+Users should:
+* Enable multi-factor authentication.
+* Use strong and unique passwords.
+* Give collaborators only the permissions they need.
+* Review repository access regularly.
+* Remove access when team members leave an organisation.
+
+For example, only authorised cybersecurity analysts should be able to modify sensitive incident response documentation.
+These practices prevent unauthorised access to repositories; information disclosure and malicious changes to repositories.
+
+Conclusion
+Git and GitHub are tools used in professional cybersecurity environments. They encourage teamwork, version control accountability and project management but users need to use proper security practices (protect credentials; control access to repositories) to ensure confidentiality, integrity and availability of information.
